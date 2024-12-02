@@ -1,7 +1,8 @@
 fn main() {
-    let ten_years_ago = 1993 - 10;
-    let five_years_ago = 1993 - 5;
-    let one_year_ago = 1993 - 1;
+    const START_YEAR: i32 = 1993;
+    let ten_years_ago = START_YEAR - 10;
+    let five_years_ago = START_YEAR - 5;
+    let one_year_ago = START_YEAR - 1;
 
     println!("Ten years ago: {}", ten_years_ago);
     println!("Five years ago: {}", five_years_ago);
